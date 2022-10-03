@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MBWarbandArmySelector.exe" version="1.0.0.0" publicKeyToken="cad6efe77b860da1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MBWarbandArmySelector" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MBWarbandArmySelector.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MBWarbandArmySelector.exe" size="11768">
+      <assemblyIdentity name="MBWarbandArmySelector" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VUEKkw34/KtfmR+E03vgvIdI9N6pz34WBMNVdl2Kr6M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MBWarbandArmySelector.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-QRGMGD2\Derin Can" issuerKeyHash="e03e9b3c01d04cfe58f1e930851cc9cf167778df" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Aqjt/GtmPAJ7CJ/T6Wd5fhE3Y/T0DIMFtZli52d4Ay8=</DigestValue></Reference></SignedInfo><SignatureValue>QKMrGHKJ0+f7deRWCCxRlU+AgHErCg10blKG7fOvarzZ4j8NN6XJWYkwHL9n+SR+WYtn7BKs3Ak6xCNJT9eOhopVwB+pu2GFqBs99Q60/6NNi3oLfFNVQiIHGSPGA+8MGOdDyV8hzjEBbGUQuOPCW9wOmbuYC26T1VW/g0Zj9gs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6aThTSVYG2chQYIcOa5mRSha93+R7wPAkDAMkdRrw/FTQguJAGPSOMGKJypZsmiZZbCG4aizYXxHbSymNU4BUicxj3fY5XudvDQN8FWWIlZldl3lWYx/yMF/IaLJnHP3XzzTW3+elBfDrlMel7yvk1akRUuTAjH6pb29AWsL07E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2f037867e76299b505830cf4f46337117e7967e9d39f087b023c666bfceda802" Description="" Url=""><as:assemblyIdentity name="MBWarbandArmySelector.exe" version="1.0.0.0" publicKeyToken="cad6efe77b860da1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-QRGMGD2\Derin Can</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8UYeycXX49A2QUbTB8jraET71kQxCLex/riGEMbUbsQ=</DigestValue></Reference></SignedInfo><SignatureValue>mcsA4S80+LwZC5nASLhq+hM3Oxsw1GthscmHrsZTXh3nBYep8ICPRy0hWeyg/3c0ol2EwrB3ygJ4PfbcGmF6s3B0E+waBCsIjz/mx0xa2srtHCthaT7CpTIJoPMQ4+m3z1f4AfkW/JsQbrVymDZS5JUQi1rfJvkDdVdtaVUFYHs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6aThTSVYG2chQYIcOa5mRSha93+R7wPAkDAMkdRrw/FTQguJAGPSOMGKJypZsmiZZbCG4aizYXxHbSymNU4BUicxj3fY5XudvDQN8FWWIlZldl3lWYx/yMF/IaLJnHP3XzzTW3+elBfDrlMel7yvk1akRUuTAjH6pb29AWsL07E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQIbXwMCd/O4tCJ4cvu9E81zANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIARABFAFMASwBUAE8AUAAtAFEAUgBHAE0ARwBEADIAXABEAGUAcgBpAG4AIABDAGEAbjAeFw0yMjEwMDMwMjQzNTNaFw0yMzEwMDMwODQzNTNaMD0xOzA5BgNVBAMeMgBEAEUAUwBLAFQATwBQAC0AUQBSAEcATQBHAEQAMgBcAEQAZQByAGkAbgAgAEMAYQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDppOFNJVgbZyFBghw5rmZFKFr3f5HvA8CQMAyR1GvD8VNCC4kAY9I4wYonKlmyaJllsIbhqLNhfEdtLKY1TgFSJzGPd9jle528NA3wVZYiVmV2XeVZjH/IwX8hosmcc/dfPNNbf56UF8OuUx6XvK+TVqRFS5MCMfqlvb0BawvTsQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAHqDxI5L3umxwzjkb+7Q3dz/HDx2qahUPUJ2gfC4N6h7aVgGwOPRvJGGQqb8OauFdFbkmNx0EHoD9Gxm5LlRourerVSxtlDMEQsG4R5PRaLrSR4elc4GuU1kq4cQ8cejLJBf2DJtlWIbmmL8cscf5Bf4Y1RowE7Fh0tizSVMaxhz</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
